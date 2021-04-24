@@ -38,7 +38,7 @@ for i in range(leng_considered):
 choosen_prices=single_prices[idx_choosen:num_of_employees+idx_choosen]
 #differnce between high and low price
 diff=max(choosen_prices)-min(choosen_prices)
-print("diff",diff)
+print("And the difference between the chosen goodie with highest price and the lowest price is",diff)
 
 cnt=0
 for key,value in goodies.items():
